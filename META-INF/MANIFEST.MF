@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: NeoEpsilon;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: NeoEpsilon,
+ NeoEpsilon.impl,
+ NeoEpsilon.util
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport,
+ fr.inria.atlanmod.neoemf.core;visibility:=reexport,
+ fr.inria.atlanmod.neoemf.blueprints,
+ org.eclipse.emf.ecore.xmi,
+ fr.inria.atlanmod.neoemf.blueprints.neo4j,
+ org.eclipse.epsilon.eol.engine,
+ org.eclipse.epsilon.etl.engine,
+ org.eclipse.epsilon.emc.emf,
+ org.eclipse.epsilon.common,
+ org.eclipse.epsilon.erl.engine,
+ org.eclipse.epsilon.eol.tools,
+ org.eclipse.epsilon.profiling
+ 
+ 
+Bundle-ActivationPolicy: lazy
+Import-Package: org.apache.commons.io

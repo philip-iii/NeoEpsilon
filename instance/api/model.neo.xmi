@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:NeoEpsilon="http://www.example.org/NeoEpsilon">
+  <NeoEpsilon:Shelf name="Shelf">
+    <boxes name="JavaBox"/>
+  </NeoEpsilon:Shelf>
+  <NeoEpsilon:Shelf name="EpsilonShelf"/>
+</xmi:XMI>

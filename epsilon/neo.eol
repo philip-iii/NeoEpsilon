@@ -1,0 +1,13 @@
+ 	"Running neo epsilon..".println();
+  	var shelf = new NeoEpsilon!Shelf();
+  	shelf.name = "Shelf";
+  	
+  	var box = new NeoEpsilon!Box();
+  	box.name = "EpsilonBox";
+  	
+  	shelf.boxes.add(box);
+ 	
+ 	("  "+shelf.boxes.size()+" boxes on shelf:").println();
+	for (b in shelf.boxes) {
+		("    "+b.name).println();
+	}
